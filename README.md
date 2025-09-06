@@ -9,7 +9,7 @@ https://drive.google.com/file/d/1xfH2U96OvhbyEkQ1D-QM5o4T2wmRLWwt/view?usp=shari
 
 ## Interesting Observations
 
-1 - My iPhone SE 2020 displays the network as "001 01" in the network selection, but my iPhone 15 displays the network as "Test PLMN 1-1" (as expected).
+1 - My iPhone SE 2020 displays the network as "001 01" in the network selection (as expected), but my iPhone 15 displays the network as "Test PLMN 1-1".
 
 2 - All the other networks populate the Network Selection list almost instantly, but my network takes a few seconds after them to show up. 
 
