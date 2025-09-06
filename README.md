@@ -49,5 +49,5 @@ Now that you can broadcast your own GSM beacon, you may be thinking what's next.
 
 If you have any questions, concerns, suggestions, or corrections, please email me at colearbuckle2010@hotmail.com witht he subject line "GSM Beacon - your subject here" and I will get back to you as soon as possible.
 
-#Disclaimer
+## Disclaimer
 I'm almsot certain you already know this, but please do not use this for malicious purposes. Doing so is against the law and I am not responsible for your actions. Please just this tool to eductate yourself and have some fun. It is suggested that you use a Faraday cage to broadcast in, but I know you're most likely not going to do that. Just do not interfere with licensed cellular communication or emergency services. 
