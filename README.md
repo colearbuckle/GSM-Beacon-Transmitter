@@ -47,13 +47,13 @@ ARFCN stands for Absolute Radio Frequency Channel Number, and it is essentially 
 
 Now that you can broadcast your own GSM beacon, you may be thinking what's next. There are many things you can use this for, but I will give some examples:
 
- - Use an RTL-SDR to monitor the uplink frequency that corresponds to the ARFCN downlink you chose. Then go on your phone and do a network operator scan, and find your network. Then click it and try to register with it. The registration will fail, but the phone will still transmit. Using this, you should be able to see pulses of radio energy, and you can confirm if things are working.
+ - Use an RTL-SDR to monitor the uplink frequency that corresponds to the ARFCN downlink you chose. Then go on your phone and do a network operator scan, and find your network. Then click it and try to register with it. The registration will fail, but the phone will still transmit. Using this, you should be able to see pulses of radio energy, and you can confirm if things are working. The pulses are very brief and may not be picked up by your SDR, so set the sample rate to a hogh value (e.g. 2M) and then the pulses should be detected. 
  - Try the previous suggestion, but buy some blank SIM cards and program them with the PLMN of this network (001 01). Then the phone will automatically start transmitting the registration attempt when the phone detects your beacon. Programming SIMs is quite involved, but this is the software I recommend https://smacarte.com/wp/grsimwrite_download/ which is free and very powerful.
  - Use this beacon as a sync clock for CalypsoBTS. CalypsoBTS allows the use of old Calypso based phones to become cellular base stations, but they require an existing cell network to sync with. This beacon can become that, and I have tried it succesfully.
 
 ## Support
 
-If you have any questions, concerns, suggestions, or corrections, please email me at colearbuckle2010@hotmail.com witht he subject line "GSM Beacon - your subject here" and I will get back to you as soon as possible.
+If you have any questions, concerns, suggestions, or corrections, please email me at colearbuckle2010@hotmail.com with the subject line "GSM Beacon - your subject here" and I will get back to you as soon as possible.
 
 ## Disclaimer
-I'm almsot certain you already know this, but please do not use this for malicious purposes. Doing so is against the law and I am not responsible for your actions. Please just this tool to eductate yourself and have some fun. It is suggested that you use a Faraday cage to broadcast in, but I know you're most likely not going to do that. Just do not interfere with licensed cellular communication or emergency services. 
+I'm almsot certain you already know this, but please do not use this for malicious purposes. Doing so is against the law and I am not responsible for your actions. Please just use this tool to eductate yourself and have some fun. It is suggested that you use a Faraday cage to broadcast in, but I know you're most likely not going to do that. Just do not interfere with licensed cellular communication or emergency services. 
